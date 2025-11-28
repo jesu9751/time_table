@@ -57,6 +57,9 @@ slot.html
                 margin-right: auto;
             }
         </style>
+        <title>SLOT TIMETABLE</title>
+        <link rel="stylesheet" href="{% static 'CSS.css' %}">
+        <link rel="icon" href="{% static 'SEC-Logo-1.png'%}">
     </head>
     <body>
         <img src="saveetha.jpg" width="40%" height="20%" style="margin-left: 30%; margin-right:60%;">
