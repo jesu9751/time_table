@@ -58,11 +58,9 @@ slot.html
             }
         </style>
         <title>SLOT TIMETABLE</title>
-        <link rel="stylesheet" href="{% static 'CSS.css' %}">
-        <link rel="icon" href="{% static 'SEC-Logo-1.png'%}">
     </head>
     <body>
-        <img src="saveetha.jpg" width="40%" height="20%" style="margin-left: 30%; margin-right:60%;">
+        <img src="{% static 'SAVEETHA.png' %} width="40%" height="20%" style="margin-left: 30%; margin-right:60%;">
      <br>
      <br>
         <table style="background-color: hsl(160, 100%, 75%);" cellspacing="2px" cellpadding="2px" width="50%" height="40%">
