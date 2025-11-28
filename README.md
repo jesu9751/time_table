@@ -46,6 +46,8 @@ def slot(request):
 
 slot.html
 ```
+{% load static %}
+<!DOCTYPE html>
 <html>
     <head>
         <title>slot</title>
